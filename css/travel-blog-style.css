@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../assets/img/german-castle-snowy.jpg);
+    background-size: cover;
+    height: 900px;
+    padding-bottom: 300px;
+}
+.hero-section .logo{
+    height: 80px;
+    width: 80px;
+}
+
+.hero-section h1{
+    font-size: 200px;
+}
+
+.hero-section i{
+    font-size: 80px;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../assets/img/german-castle-town.jpg);
+    background-size: cover;
+    height: 800px;
+    padding: 60px;
+}
+
+.intro .introLeft{
+    width: 50%;
+    padding: 25px;
+}
+
+.intro .introLeft h2{
+    font-size: 80px;
+    color: #fff;
+    padding-right: 10px;
+}
+
+.intro .introRight{
+    width: 50%;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.intro .introRight p{
+    color: #fff;
+    line-height: 27px;
+    padding-bottom: 20px;
+    font-size: 19px;
+}
+
+.intro .introRight .ctaBtn{
+    width: 120px;
+    height: 40px;
+    background: rgb(255, 94, 0);
+    font-size: 20px;
+    margin-top: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    transition: cursor 0.3s ease;
+}
+
+.intro .introRight .ctaBtn:hover{
+    cursor: pointer;
+}
+
+.things-to-do{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: url(../assets/img/german-mountainside.jpg);
+    background-image: cover;
+    height: 700px;
+}
+
+.things-to-do .activities{
+    text-align: center;
+    background: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    height: 100%;
+}
+
+.things-to-do .activities h2{
+    font-size: 45px;
+    padding: 25px;
+    color: #000;
+}
+
+.things-to-do .activities .activitiesWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.things-to-do .activities .activitiesWrapper .container1, .things-to-do .activities .activitiesWrapper .container2, .things-to-do .activities .activitiesWrapper .container3{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+    height: 480px;
+    width: 300px;
+}
+
+.things-to-do .activities .activitiesWrapper .container1{
+    background: url(../assets/img/german-cathedral-vertical.jpg);
+    background-size: 300px 480px;
+}
+
+.things-to-do .activities .activitiesWrapper .container2{
+    background: url(../assets/img/berlin.jpg);
+    background-size: 300px 480px;
+}
+
+.things-to-do .activities .activitiesWrapper .container3{
+    background: url(../assets/img/german-castle-fall-vertical.jpg);
+    background-size: 300px 480px;
+}
+
+.things-to-do .activities .activitiesWrapper .info-container{
+    background: rgba(0, 0, 0, 0.4);
+    color: #dbd9d9;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: auto;
+}
+
+.things-to-do .activities .activitiesWrapper .info-container i{
+    font-size: 30px;
+}
+
+.things-to-do .activities .ctaBtn{
+    margin-top: 40px;
+    width: 120px;
+    height: 40px;
+    background: rgb(255, 94, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 17px;
+    transition: cursor 0.3s ease;
+}
+
+.things-to-do .activities .ctaBtn:hover{
+    cursor: pointer;
+}
+
+.tour-castles{
+    background: url(../assets/img/german-castle-left.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+.tour-castles .recommendations{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgba(255, 255, 255, 0.2);
+    height: 700px;
+}
+
+.tour-castles .recommendations .sectionHeader{
+    width: 50%;
+    font-size: 70px;
+    margin-top: 60px;
+    margin-bottom: auto;
+    margin-left: 25px;
+}
+
+.tour-castles .recommendations .content{
+    width: 50%;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.tour-castles .recommendations .content p{
+    padding: 20px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.tour-castles .recommendations .content h3{
+    padding-left: 20px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.random-facts{
+    background: url(../assets/img/german-train-station.jpg);
+    background-image: cover;
+    height: 600px;
+}
+
+.random-facts .stats{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 150px;
+}
+
+.random-facts .stats .statWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 94, 0);
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.random-facts .statWrapper h3{
+    font-size: 75px;
+}
+
+.random-facts .statWrapper p{
+    font-size: 22px;
+}
+
+.author{
+    background: url(../assets/img/german-castle-grounds.jpg);
+    background-size: 100% auto;
+    height: 800px;
+}
+
+.author .authorInfo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+}
+
+.author .authorInfo .authorImg{
+    border-radius: 50%;
+}
+
+.author .authorInfo p{
+    font-size: 25px;
+    color: #dbd9d9;
+    text-align: center;
+    padding: 0 300px 50px;
+}
+
+.author .authorInfo h3{
+    font-size: 35px;
+    color: #dbd9d9;
+}
+
+.author .authorInfo i{
+    font-size: 100px;
+    color: rgb(255, 94, 0);
+}
+
+.more-pics{
+    margin-bottom: -150px;
+}
+
+.more-pics .gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-pics .gallery .galleryImg{
+    width: 25%;
+    height: 700px;
+}
+
+.more-pics .arrows{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 150px;
+    color: rgb(255, 94, 0);
+    position: relative;
+    top: -410px;
+    z-index: 1;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    border: 3px solid #000;
+    background: url(../assets/img/german-castle-above-town.jpg);
+    background-size: 100% auto;
+}
+
+footer .leftFoot{
+    padding: 25px;
+    margin-top: 50px;
+    margin-bottom: auto;
+}
+
+footer .leftFoot h2{
+    font-size: 70px;
+}
+
+footer .leftFoot ul li{
+    list-style: none;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+footer .leftFoot .iconWrapper{
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+footer .rightFoot form{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+    margin-right: 70px;
+}
+
+footer .rightFoot form #name{
+    width: 600px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    background: rgba(0, 0, 0, 0.1);
+    border: 3px solid #000;
+    font-size: 15px;
+    color: #000;
+}
+
+footer .rightFoot form #email{
+    width: 600px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    background: rgba(0, 0, 0, 0.1);
+    border: 3px solid #000;
+    font-size: 15px;
+    color: #000;
+}
+
+footer .rightFoot form #message{
+    width: 600px;
+    height: 200px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.1);
+    border: 3px solid #000;
+    font-size: 15px;
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+footer .rightFoot button{
+    width: 120px;
+    height: 40px;
+    background: rgb(255, 94, 0);
+    font-size: 20px;
+    margin-top: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    transition: cursor 0.3s ease;
+}
